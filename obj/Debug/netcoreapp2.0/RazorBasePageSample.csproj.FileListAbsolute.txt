@@ -3,7 +3,6 @@ D:\_src\Github\RazorBasePageSample\bin\Debug\netcoreapp2.0\RazorBasePageSample.r
 D:\_src\Github\RazorBasePageSample\bin\Debug\netcoreapp2.0\RazorBasePageSample.runtimeconfig.dev.json
 D:\_src\Github\RazorBasePageSample\bin\Debug\netcoreapp2.0\RazorBasePageSample.dll
 D:\_src\Github\RazorBasePageSample\bin\Debug\netcoreapp2.0\RazorBasePageSample.pdb
-D:\_src\Github\RazorBasePageSample\obj\Debug\netcoreapp2.0\RazorBasePageSample.csprojResolveAssemblyReference.cache
 D:\_src\Github\RazorBasePageSample\obj\Debug\netcoreapp2.0\RazorBasePageSample.csproj.CoreCompileInputs.cache
 D:\_src\Github\RazorBasePageSample\obj\Debug\netcoreapp2.0\RazorBasePageSample.AssemblyInfoInputs.cache
 D:\_src\Github\RazorBasePageSample\obj\Debug\netcoreapp2.0\RazorBasePageSample.AssemblyInfo.cs
