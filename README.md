@@ -1,6 +1,8 @@
 # RazorBasePageSample
 
-Following the [discussion](https://github.com/aspnet/Mvc/issues/6769) I've tried to make my base page working.
+Following the [discussion](https://github.com/aspnet/Mvc/issues/6769) I tried to make MyBasePage working, but it didn't work.
+
+NOTE: If I move **@inherits MyBasePage** directly to **Index.xshtml**, it started to work.
 
 **MyBasePage**
 ```
@@ -30,7 +32,7 @@ public abstract class MyBasePage : Page
 }
 ```
 
-**But it does not work! It just throws the exception:**
+**Exception:**
 ```
 System.ArgumentException: Property 'ViewData' is of type 'Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary`1[[RazorBasePageSample.Pages.IndexModel, RazorBasePageSample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', but this method requires a value of type 'Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
 Parameter name: viewContext
